@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D680E3C51ABC61CF00DAC71B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D680E3C41ABC61CF00DAC71B /* main.m */; };
+		D680E3C81ABC61CF00DAC71B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D680E3C71ABC61CF00DAC71B /* AppDelegate.m */; };
+		D680E3CB1ABC61CF00DAC71B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D680E3CA1ABC61CF00DAC71B /* ViewController.m */; };
+		D680E3CE1ABC61CF00DAC71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D680E3CC1ABC61CF00DAC71B /* Main.storyboard */; };
+		D680E3D01ABC61CF00DAC71B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D680E3CF1ABC61CF00DAC71B /* Images.xcassets */; };
+		D680E3D31ABC61CF00DAC71B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D680E3D11ABC61CF00DAC71B /* LaunchScreen.xib */; };
+		D680E3DF1ABC61CF00DAC71B /* TutorialOverlaySampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D680E3DE1ABC61CF00DAC71B /* TutorialOverlaySampleAppTests.m */; };
+		D680E3F01ABC621F00DAC71B /* DSImageSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D680E3E91ABC621F00DAC71B /* DSImageSet.m */; };
+		D680E3F11ABC621F00DAC71B /* DSTutorialAnimatedPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D680E3EB1ABC621F00DAC71B /* DSTutorialAnimatedPage.m */; };
+		D680E3F21ABC621F00DAC71B /* DSTutorialOverlayControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D680E3ED1ABC621F00DAC71B /* DSTutorialOverlayControl.m */; };
+		D680E3F31ABC621F00DAC71B /* DSTutorialPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D680E3EF1ABC621F00DAC71B /* DSTutorialPage.m */; };
+		D680E3F91ABC666500DAC71B /* Tutorial1.png in Resources */ = {isa = PBXBuildFile; fileRef = D680E3F51ABC666500DAC71B /* Tutorial1.png */; };
+		D680E3FA1ABC666500DAC71B /* Tutorial2.png in Resources */ = {isa = PBXBuildFile; fileRef = D680E3F61ABC666500DAC71B /* Tutorial2.png */; };
+		D680E3FB1ABC666500DAC71B /* Tutorial3.png in Resources */ = {isa = PBXBuildFile; fileRef = D680E3F71ABC666500DAC71B /* Tutorial3.png */; };
+		D680E3FC1ABC666500DAC71B /* Tutorial4.png in Resources */ = {isa = PBXBuildFile; fileRef = D680E3F81ABC666500DAC71B /* Tutorial4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D680E3D91ABC61CF00DAC71B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D680E3B71ABC61CF00DAC71B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D680E3BE1ABC61CF00DAC71B;
+			remoteInfo = TutorialOverlaySampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D680E3BF1ABC61CF00DAC71B /* TutorialOverlaySampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialOverlaySampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D680E3C31ABC61CF00DAC71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D680E3C41ABC61CF00DAC71B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D680E3C61ABC61CF00DAC71B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D680E3C71ABC61CF00DAC71B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D680E3C91ABC61CF00DAC71B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D680E3CA1ABC61CF00DAC71B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D680E3CD1ABC61CF00DAC71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D680E3CF1ABC61CF00DAC71B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D680E3D21ABC61CF00DAC71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D680E3D81ABC61CF00DAC71B /* TutorialOverlaySampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorialOverlaySampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D680E3DD1ABC61CF00DAC71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D680E3DE1ABC61CF00DAC71B /* TutorialOverlaySampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialOverlaySampleAppTests.m; sourceTree = "<group>"; };
+		D680E3E81ABC621F00DAC71B /* DSImageSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSImageSet.h; path = ../../DSTutorialOverlay/DSImageSet.h; sourceTree = "<group>"; };
+		D680E3E91ABC621F00DAC71B /* DSImageSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSImageSet.m; path = ../../DSTutorialOverlay/DSImageSet.m; sourceTree = "<group>"; };
+		D680E3EA1ABC621F00DAC71B /* DSTutorialAnimatedPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSTutorialAnimatedPage.h; path = ../../DSTutorialOverlay/DSTutorialAnimatedPage.h; sourceTree = "<group>"; };
+		D680E3EB1ABC621F00DAC71B /* DSTutorialAnimatedPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSTutorialAnimatedPage.m; path = ../../DSTutorialOverlay/DSTutorialAnimatedPage.m; sourceTree = "<group>"; };
+		D680E3EC1ABC621F00DAC71B /* DSTutorialOverlayControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSTutorialOverlayControl.h; path = ../../DSTutorialOverlay/DSTutorialOverlayControl.h; sourceTree = "<group>"; };
+		D680E3ED1ABC621F00DAC71B /* DSTutorialOverlayControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSTutorialOverlayControl.m; path = ../../DSTutorialOverlay/DSTutorialOverlayControl.m; sourceTree = "<group>"; };
+		D680E3EE1ABC621F00DAC71B /* DSTutorialPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSTutorialPage.h; path = ../../DSTutorialOverlay/DSTutorialPage.h; sourceTree = "<group>"; };
+		D680E3EF1ABC621F00DAC71B /* DSTutorialPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSTutorialPage.m; path = ../../DSTutorialOverlay/DSTutorialPage.m; sourceTree = "<group>"; };
+		D680E3F51ABC666500DAC71B /* Tutorial1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tutorial1.png; sourceTree = SOURCE_ROOT; };
+		D680E3F61ABC666500DAC71B /* Tutorial2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tutorial2.png; sourceTree = SOURCE_ROOT; };
+		D680E3F71ABC666500DAC71B /* Tutorial3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tutorial3.png; sourceTree = SOURCE_ROOT; };
+		D680E3F81ABC666500DAC71B /* Tutorial4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tutorial4.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D680E3BC1ABC61CF00DAC71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D680E3D51ABC61CF00DAC71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D680E3B61ABC61CF00DAC71B = {
+			isa = PBXGroup;
+			children = (
+				D680E3C11ABC61CF00DAC71B /* TutorialOverlaySampleApp */,
+				D680E3DB1ABC61CF00DAC71B /* TutorialOverlaySampleAppTests */,
+				D680E3C01ABC61CF00DAC71B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D680E3C01ABC61CF00DAC71B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D680E3BF1ABC61CF00DAC71B /* TutorialOverlaySampleApp.app */,
+				D680E3D81ABC61CF00DAC71B /* TutorialOverlaySampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D680E3C11ABC61CF00DAC71B /* TutorialOverlaySampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				D680E3F41ABC622200DAC71B /* DSTutorialOverlay */,
+				D680E3C61ABC61CF00DAC71B /* AppDelegate.h */,
+				D680E3C71ABC61CF00DAC71B /* AppDelegate.m */,
+				D680E3C91ABC61CF00DAC71B /* ViewController.h */,
+				D680E3CA1ABC61CF00DAC71B /* ViewController.m */,
+				D680E3CC1ABC61CF00DAC71B /* Main.storyboard */,
+				D680E3CF1ABC61CF00DAC71B /* Images.xcassets */,
+				D680E3D11ABC61CF00DAC71B /* LaunchScreen.xib */,
+				D680E3C21ABC61CF00DAC71B /* Supporting Files */,
+			);
+			path = TutorialOverlaySampleApp;
+			sourceTree = "<group>";
+		};
+		D680E3C21ABC61CF00DAC71B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D680E3F51ABC666500DAC71B /* Tutorial1.png */,
+				D680E3F61ABC666500DAC71B /* Tutorial2.png */,
+				D680E3F71ABC666500DAC71B /* Tutorial3.png */,
+				D680E3F81ABC666500DAC71B /* Tutorial4.png */,
+				D680E3C31ABC61CF00DAC71B /* Info.plist */,
+				D680E3C41ABC61CF00DAC71B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D680E3DB1ABC61CF00DAC71B /* TutorialOverlaySampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D680E3DE1ABC61CF00DAC71B /* TutorialOverlaySampleAppTests.m */,
+				D680E3DC1ABC61CF00DAC71B /* Supporting Files */,
+			);
+			path = TutorialOverlaySampleAppTests;
+			sourceTree = "<group>";
+		};
+		D680E3DC1ABC61CF00DAC71B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D680E3DD1ABC61CF00DAC71B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D680E3F41ABC622200DAC71B /* DSTutorialOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				D680E3E81ABC621F00DAC71B /* DSImageSet.h */,
+				D680E3E91ABC621F00DAC71B /* DSImageSet.m */,
+				D680E3EA1ABC621F00DAC71B /* DSTutorialAnimatedPage.h */,
+				D680E3EB1ABC621F00DAC71B /* DSTutorialAnimatedPage.m */,
+				D680E3EC1ABC621F00DAC71B /* DSTutorialOverlayControl.h */,
+				D680E3ED1ABC621F00DAC71B /* DSTutorialOverlayControl.m */,
+				D680E3EE1ABC621F00DAC71B /* DSTutorialPage.h */,
+				D680E3EF1ABC621F00DAC71B /* DSTutorialPage.m */,
+			);
+			name = DSTutorialOverlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D680E3BE1ABC61CF00DAC71B /* TutorialOverlaySampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D680E3E21ABC61CF00DAC71B /* Build configuration list for PBXNativeTarget "TutorialOverlaySampleApp" */;
+			buildPhases = (
+				D680E3BB1ABC61CF00DAC71B /* Sources */,
+				D680E3BC1ABC61CF00DAC71B /* Frameworks */,
+				D680E3BD1ABC61CF00DAC71B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutorialOverlaySampleApp;
+			productName = TutorialOverlaySampleApp;
+			productReference = D680E3BF1ABC61CF00DAC71B /* TutorialOverlaySampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D680E3D71ABC61CF00DAC71B /* TutorialOverlaySampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D680E3E51ABC61CF00DAC71B /* Build configuration list for PBXNativeTarget "TutorialOverlaySampleAppTests" */;
+			buildPhases = (
+				D680E3D41ABC61CF00DAC71B /* Sources */,
+				D680E3D51ABC61CF00DAC71B /* Frameworks */,
+				D680E3D61ABC61CF00DAC71B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D680E3DA1ABC61CF00DAC71B /* PBXTargetDependency */,
+			);
+			name = TutorialOverlaySampleAppTests;
+			productName = TutorialOverlaySampleAppTests;
+			productReference = D680E3D81ABC61CF00DAC71B /* TutorialOverlaySampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D680E3B71ABC61CF00DAC71B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dynabyte Software, LLC";
+				TargetAttributes = {
+					D680E3BE1ABC61CF00DAC71B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D680E3D71ABC61CF00DAC71B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D680E3BE1ABC61CF00DAC71B;
+					};
+				};
+			};
+			buildConfigurationList = D680E3BA1ABC61CF00DAC71B /* Build configuration list for PBXProject "TutorialOverlaySampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D680E3B61ABC61CF00DAC71B;
+			productRefGroup = D680E3C01ABC61CF00DAC71B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D680E3BE1ABC61CF00DAC71B /* TutorialOverlaySampleApp */,
+				D680E3D71ABC61CF00DAC71B /* TutorialOverlaySampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D680E3BD1ABC61CF00DAC71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D680E3CE1ABC61CF00DAC71B /* Main.storyboard in Resources */,
+				D680E3FC1ABC666500DAC71B /* Tutorial4.png in Resources */,
+				D680E3FB1ABC666500DAC71B /* Tutorial3.png in Resources */,
+				D680E3F91ABC666500DAC71B /* Tutorial1.png in Resources */,
+				D680E3FA1ABC666500DAC71B /* Tutorial2.png in Resources */,
+				D680E3D31ABC61CF00DAC71B /* LaunchScreen.xib in Resources */,
+				D680E3D01ABC61CF00DAC71B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D680E3D61ABC61CF00DAC71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D680E3BB1ABC61CF00DAC71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D680E3CB1ABC61CF00DAC71B /* ViewController.m in Sources */,
+				D680E3C81ABC61CF00DAC71B /* AppDelegate.m in Sources */,
+				D680E3C51ABC61CF00DAC71B /* main.m in Sources */,
+				D680E3F01ABC621F00DAC71B /* DSImageSet.m in Sources */,
+				D680E3F11ABC621F00DAC71B /* DSTutorialAnimatedPage.m in Sources */,
+				D680E3F21ABC621F00DAC71B /* DSTutorialOverlayControl.m in Sources */,
+				D680E3F31ABC621F00DAC71B /* DSTutorialPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D680E3D41ABC61CF00DAC71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D680E3DF1ABC61CF00DAC71B /* TutorialOverlaySampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D680E3DA1ABC61CF00DAC71B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D680E3BE1ABC61CF00DAC71B /* TutorialOverlaySampleApp */;
+			targetProxy = D680E3D91ABC61CF00DAC71B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D680E3CC1ABC61CF00DAC71B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D680E3CD1ABC61CF00DAC71B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D680E3D11ABC61CF00DAC71B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D680E3D21ABC61CF00DAC71B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D680E3E01ABC61CF00DAC71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D680E3E11ABC61CF00DAC71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D680E3E31ABC61CF00DAC71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TutorialOverlaySampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D680E3E41ABC61CF00DAC71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TutorialOverlaySampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D680E3E61ABC61CF00DAC71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TutorialOverlaySampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TutorialOverlaySampleApp.app/TutorialOverlaySampleApp";
+			};
+			name = Debug;
+		};
+		D680E3E71ABC61CF00DAC71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TutorialOverlaySampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TutorialOverlaySampleApp.app/TutorialOverlaySampleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D680E3BA1ABC61CF00DAC71B /* Build configuration list for PBXProject "TutorialOverlaySampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D680E3E01ABC61CF00DAC71B /* Debug */,
+				D680E3E11ABC61CF00DAC71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D680E3E21ABC61CF00DAC71B /* Build configuration list for PBXNativeTarget "TutorialOverlaySampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D680E3E31ABC61CF00DAC71B /* Debug */,
+				D680E3E41ABC61CF00DAC71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D680E3E51ABC61CF00DAC71B /* Build configuration list for PBXNativeTarget "TutorialOverlaySampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D680E3E61ABC61CF00DAC71B /* Debug */,
+				D680E3E71ABC61CF00DAC71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D680E3B71ABC61CF00DAC71B /* Project object */;
+}
