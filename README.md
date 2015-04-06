@@ -1,5 +1,11 @@
 # DSTutorialOverlay
-Dynabyte Software's Tutorial Overlay library allows you to easily create an overlay in your application that instructs users. It can exist as a child of any view. 
+Dynabyte Software's Tutorial Overlay library allows you to easily create an overlay in your application that instructs users.
+
+To work with a DSTutorialOverlay, all you need to do is create it as a subview of whatever view controller you want it to exist on top of. You then assign it an array of DSPages, who contain a DSImageSet. On each DSPage, you can specify whether the user can tap anywhere to advance/close the tutorial. There's even support for animated pages (it works, but needs improvements). In each DSImageSet you can provide a single image, or an image for each phone size—DSTutorialOverlay will specify the appropriate image for you.
+
+If you want to respond to delegate functions, which send messages for moving forward and backward within the tutorial as well as closing it, make sure you designate your view controller a CFTutorialOverlayDelegate.
+
+Sample Code:
 
     // create images
     UIImage *tutorial1 = [UIImage imageNamed:@"tutorial-1.jpg"];
@@ -7,23 +13,23 @@ Dynabyte Software's Tutorial Overlay library allows you to easily create an over
     UIImage *tutorial3 = [UIImage imageNamed:@"tutorial-3.jpg"];
     
     // create image sets
-    CFImageSet *page1ImageSet = [[CFImageSet alloc] initWithImage:tutorial1];
-    CFImageSet *page2ImageSet = [[CFImageSet alloc] initWithImage:tutorial2];
-    CFImageSet *page3ImageSet = [[CFImageSet alloc] initWithImage:tutorial3];
+    DSImageSet *page1ImageSet = [[DSImageSet alloc] initWithImage:tutorial1];
+    DSImageSet *page2ImageSet = [[DSImageSet alloc] initWithImage:tutorial2];
+    DSImageSet *page3ImageSet = [[DSImageSet alloc] initWithImage:tutorial3];
     
     // create static pages 1 - 3
-    CFTutorialPage *page1 = [[CFTutorialPage alloc] initWithImageSet:page1ImageSet];
+    DSTutorialPage *page1 = [[DSTutorialPage alloc] initWithImageSet:page1ImageSet];
     page1.tapAnywhereAllowed = FALSE;
     
-    CFTutorialPage *page2 = [[CFTutorialPage alloc] initWithImageSet:page2ImageSet];
-    page2.tapAnywhereAllowed = FALSE;
+    CFTutorialPage *page2 = [[DSTutorialPage alloc] initWithImageSet:page2ImageSet];
+    page2.DSTutorialPage = FALSE;
     
-    CFTutorialPage *page3 = [[CFTutorialPage alloc] initWithImageSet:page3ImageSet];
+    DSTutorialPage *page3 = [[DSTutorialPage alloc] initWithImageSet:page3ImageSet];
     page3.tapAnywhereAllowed = FALSE;
     
     // create animated page 4
-    NSArray *imageSets = [[NSArray alloc] initWithObjects:[[CFImageSet alloc] initWithImage:[UIImage imageNamed:@"tutorial-4-os.jpg"]], [[CFImageSet alloc] initWithImage:[UIImage imageNamed:@"tutorial-4-od.jpg"]], nil];
-    CFTutorialAnimatedPage *page4 = [[CFTutorialAnimatedPage alloc] initWithImageSets:imageSets];
+    NSArray *imageSets = [[NSArray alloc] initWithObjects:[[DSImageSet alloc] initWithImage:[UIImage imageNamed:@"tutorial-4-os.jpg"]], [[DSImageSet alloc] initWithImage:[UIImage imageNamed:@"tutorial-4-od.jpg"]], nil];
+    DSTutorialAnimatedPage *page4 = [[DSTutorialAnimatedPage alloc] initWithImageSets:imageSets];
     page4.interval = 0.6f;
     page4.tapAnywhereAllowed = FALSE;
     
@@ -40,7 +46,7 @@ Dynabyte Software's Tutorial Overlay library allows you to easily create an over
     NSArray *pages = [[NSArray alloc] initWithObjects:page1, page2, page3, page4, nil];
     
     // instantiate tutorial overlay with array of pages
-    self.tutorialOverlay = [[CFTutorialOverlayControl alloc] initInView:self.view withPages:pages withSwipeToClose:FALSE];
+    self.tutorialOverlay = [[DSTutorialOverlayControl alloc] initInView:self.view withPages:pages withSwipeToClose:FALSE];
     self.tutorialOverlay.delegate = self;
     
     [self.view addSubview:self.tutorialOverlay];
