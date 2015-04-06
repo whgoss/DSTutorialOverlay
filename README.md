@@ -27,7 +27,7 @@ Sample Code:
     page1.tapAnywhereAllowed = FALSE;
     
     CFTutorialPage *page2 = [[DSTutorialPage alloc] initWithImageSet:page2ImageSet];
-    page2.DSTutorialPage = FALSE;
+    page2.tapAnywhereAllowed = FALSE;
     
     DSTutorialPage *page3 = [[DSTutorialPage alloc] initWithImageSet:page3ImageSet];
     page3.tapAnywhereAllowed = FALSE;
