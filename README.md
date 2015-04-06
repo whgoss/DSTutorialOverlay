@@ -15,6 +15,7 @@ Sample Code:
     UIImage *tutorial1 = [UIImage imageNamed:@"tutorial-1.jpg"];
     UIImage *tutorial2 = [UIImage imageNamed:@"tutorial-2.jpg"];
     UIImage *tutorial3 = [UIImage imageNamed:@"tutorial-3.jpg"];
+    NSArray *animatedImageSets = [[NSArray alloc] initWithObjects:[[DSImageSet alloc] initWithImage:[UIImage imageNamed:@"tutorial-4-os.jpg"]], [[DSImageSet alloc] initWithImage:[UIImage imageNamed:@"tutorial-4-od.jpg"]], nil];
     
     // create image sets
     DSImageSet *page1ImageSet = [[DSImageSet alloc] initWithImage:tutorial1];
@@ -32,8 +33,7 @@ Sample Code:
     page3.tapAnywhereAllowed = FALSE;
     
     // create animated page 4
-    NSArray *imageSets = [[NSArray alloc] initWithObjects:[[DSImageSet alloc] initWithImage:[UIImage imageNamed:@"tutorial-4-os.jpg"]], [[DSImageSet alloc] initWithImage:[UIImage imageNamed:@"tutorial-4-od.jpg"]], nil];
-    DSTutorialAnimatedPage *page4 = [[DSTutorialAnimatedPage alloc] initWithImageSets:imageSets];
+    DSTutorialAnimatedPage *page4 = [[DSTutorialAnimatedPage alloc] initWithImageSets:animatedImageSets];
     page4.interval = 0.6f;
     page4.tapAnywhereAllowed = FALSE;
     
