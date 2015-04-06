@@ -1,7 +1,11 @@
 # DSTutorialOverlay
 Dynabyte Software's Tutorial Overlay library allows you to easily create an overlay in your application that instructs users.
 
-To work with a DSTutorialOverlay, all you need to do is create it as a subview of whatever view controller you want it to exist on top of. You then assign it an array of DSPages, who contain a DSImageSet. On each DSPage, you can specify whether the user can tap anywhere to advance/close the tutorial. There's even support for animated pages (it works, but needs improvements). In each DSImageSet you can provide a single image, or an image for each phone size—DSTutorialOverlay will specify the appropriate image for you.
+To work with a DSTutorialOverlay, all you need to do is create it as a subview of whatever view controller you want it to exist on top of. You then assign it an array of DSPages, who contain a DSImageSet. 
+
+In each DSImageSet you can provide a single image, or an image for each phone size—DSTutorialOverlay will specify the appropriate image for you.
+
+On each DSPage, you can specify whether the user can tap anywhere to advance/close the tutorial. There's even support for animated pages (it works, but needs improvements). 
 
 If you want to respond to delegate functions, which send messages for moving forward and backward within the tutorial as well as closing it, make sure you designate your view controller a CFTutorialOverlayDelegate.
 
